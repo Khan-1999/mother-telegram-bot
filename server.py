@@ -4,8 +4,8 @@ import os
 
 app = Flask(__name__)
 
-BOT_TOKEN = os.getenv('BOT_TOKEN')  # Telegram bot token from BotFather
-CHAT_ID = os.getenv('CHAT_ID')  # Your Telegram chat ID
+BOT_TOKEN = os.getenv('7759774246:AAEQeaife5Qv3qkw9g7MGCjy6rYX_AzsVd0')  # Telegram bot token from BotFather
+CHAT_ID = os.getenv('7539424793')  # Your Telegram chat ID
 TELEGRAM_API_URL = f'https://api.telegram.org/bot{BOT_TOKEN}/sendMessage'
 
 @app.route('/webhook', methods=['POST'])
